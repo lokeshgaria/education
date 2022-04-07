@@ -1,0 +1,125 @@
+.interactions {
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.childContainer {
+  width: 54%;
+
+  margin: 2rem auto;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.childContainer p {
+  width: 80%;
+  margin: auto;
+  font-size: 1.9rem;
+}
+
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: auto;
+    width: 100%;
+}
+
+.classCard {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(221, 223, 227);
+  border-radius: 8px;
+  color: rgb(46, 50, 56);
+  height: 400px;
+  width: 242px;
+}
+
+.card_media {
+  border-radius: 8px 8px 0px 0px;
+  /* */
+  overflow: hidden;
+}
+
+.card_media > img {
+  width: 100%;
+}
+
+.card_Content {
+    width: 90%;
+    margin: auto;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card_bottom > p {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: calc(5.5rem);
+    margin-bottom: 16px;
+   
+}
+.card_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    width: 11rem;
+}
+
+.favorite{
+    display: flex;
+}
+
+.userSection{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.userSection > img{
+    border-radius: 100%;
+    width: 35px;
+    border: 1px solid #c43333;
+    padding: 0.2rem;
+    margin-right: 1rem;
+}
+
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.desc{
+    font-size: 1.5rem;
+    background: rgb(224 217 217 / 35%);
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 5rem;
+    justify-content: center;
+}

@@ -1,0 +1,86 @@
+.homeDiv {
+  background-image: url("../assets/eduBg.png");
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 450px;
+  background-size: 100% 100%;
+}
+
+.hero {
+  height: 80%;
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h3 {
+  font-size: 7.2rem;
+  color: #fff;
+}
+.hero a {
+  display: block;
+  width: 26%;
+  background: #28a876;
+  color: #fff;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.leftSide {
+  width: 128px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.leftSide > img {
+  width: 128px;
+}
+
+.ul {
+  display: flex;
+  width: 350px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 1rem;
+}
+.ul a {
+  color: #fff;
+}
+
+.rightSide {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hover_element:hover {
+  border: 1px solid #dcdcdc5c;
+  border-radius: 5px;
+  background-color: rgb(224 217 217 / 35%);
+  padding: 1rem 0.5rem;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.exloreLink {
+  background-color: #28a876;
+  border-color: rgba(37, 93, 173, 0.25);
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 2.5rem;
+  display: block;
+  width: 27%;
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
+}
