@@ -1,0 +1,45 @@
+.Feature {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.Feture_heading > h3 {
+  font-size: 3.2rem;
+  text-align: center;
+}
+
+.Feature_cards {
+  width: 24%;
+  display: flex;
+  margin: 0 2rem;
+}
+
+.card_top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_top > img {
+  width: 87%;
+}
+
+.learning_title {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.learning_desc {
+  text-align: center;
+}
+
+.featureRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

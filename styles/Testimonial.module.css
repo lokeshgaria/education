@@ -1,0 +1,26 @@
+.testimonials{
+    width: 100%;
+    background: rgb(144 206 225);
+}
+
+.testimonial__content{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.testimonial__content > img{
+    border-radius: 50%;
+    width: 11rem;
+}
+
+.testimonial_message{
+    width: 86%;
+    margin: auto;
+}
+
+.testimonial_message > p{
+    font-size: 1.9rem;
+}

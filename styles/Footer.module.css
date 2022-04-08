@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    background: #143f74;
+}
+
+.footer_content{
+    max-width: 1250px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    /* border: 1px solid; */
+    color: #fff;
+    height: 300px;
+}
+
+.footer_first{
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.footer_first  img{
+    width: 50%;
+}

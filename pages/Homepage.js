@@ -2,6 +2,10 @@ import Link from "next/link";
 import React from "react";
 import * as styles from "../styles/Homepage.module.css";
 import Interaction from "../components/Interaction";
+import SlickBanner from "../components/SlickBanner";
+import Feature from "../components/Feature";
+import Testimonial from "../components/Testimonial";
+import Footer from "../components/Footer";
 
 function Homepage() {
   return (
@@ -46,6 +50,15 @@ function Homepage() {
       </div>
       {/* INTERACTIONS*/}
       <Interaction />
+      
+      {/**MINI-BANNER */}
+      <SlickBanner />
+      {/*INTERACT CARDS*/}
+      <Feature />
+      {/**TESTIMONIAL */}
+      <Testimonial />
+      {/**FOOTER */}
+      <Footer />
     </>
   );
 }
