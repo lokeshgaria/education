@@ -14,7 +14,7 @@
 .testimonial__content_img{
     border-radius: 50%;
     
-    border: 1px solid;
+   
 }
 
 .testimonial_message{
@@ -24,4 +24,25 @@
 
 .testimonial_message > p{
     font-size: 1.9rem;
+}
+
+
+@media (max-width:780px){
+    .testimonial__content{
+        max-width: 1250px;
+        margin: auto;
+        display: flex;
+        align-items: flex-start;
+        height: 193px;
+        padding: 2rem;
+       
+        justify-content: center;
+    }
+    .testimonial_message{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 2rem;
+        text-align: left;
+    }
+
 }

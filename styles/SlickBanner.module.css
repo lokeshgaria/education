@@ -73,3 +73,38 @@
 }
 
 
+@media(max-width:780px){
+  .slickBanner{
+    display: flex;
+    min-height: 45rem;
+    max-width: 1250px;
+    width: 100%;
+    position: relative;
+    margin: 2rem auto;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+    
+    flex-direction: column;
+    
+  }
+  .slikContent{
+    margin: 2rem auto;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.Slic_heading{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Jost";
+  font-weight: 900;
+  font-size: 3rem;
+  width: 100%;
+  line-height: 38px;
+}
+
+}

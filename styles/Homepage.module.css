@@ -84,3 +84,32 @@
   border-radius: 5px;
   margin: auto;
 }
+
+@media (max-width: 780px) {
+  .ul {
+    display: none;
+  }
+  .hero{
+    height: 74%;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero h3 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+.hero a {
+  display: block;
+  width: 54%;
+  background: #28a876;
+  color: #fff;
+  font-size: 2.2rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  margin: 2rem auto;
+  text-align: center;
+}
+}

@@ -1,9 +1,9 @@
 .interactions {
-    height: 625px;
-    display: flex;
-    flex-direction: column;
-    
-    justify-content: center;
+  height: 625px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
 }
 
 .childContainer {
@@ -21,12 +21,12 @@
 }
 
 .card_container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1250px;
-    margin: auto;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1250px;
+  margin: auto;
+  width: 100%;
 }
 
 .classCard {
@@ -49,26 +49,25 @@
 }
 
 .card_Content {
-    width: 90%;
-    margin: auto;
-    height: 25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .card_bottom > p {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 12px;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    height: calc(5.5rem);
-    margin-bottom: 16px;
-   
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: calc(5.5rem);
+  margin-bottom: 16px;
 }
 .card_top {
   display: flex;
@@ -77,52 +76,95 @@
   font-size: 2rem;
 }
 
-.rating{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   
-    width: 11rem;
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 11rem;
 }
 
-.favorite{
-    display: flex;
+.favorite {
+  display: flex;
 }
 
-.userSection{
-   
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+.userSection {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.profileImg{
-    border-radius: 100%;
-    width: 35px;
-    border: 1px solid #c43333;
-    padding: 0.2rem;
-    
+.profileImg {
+  border-radius: 100%;
+  width: 35px;
+  border: 1px solid #c43333;
+  padding: 0.2rem;
 }
-.userName{
+.userName {
   margin-left: 1rem;
 }
 
-.card_footer{
+.card_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desc {
+  font-size: 1.5rem;
+  background: rgb(224 217 217 / 35%);
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 5rem;
+  justify-content: center;
+}
+
+@media (max-width: 780px) {
+  .interactions {
+    height: 69rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .childContainer p {
+    width: 90%;
+    margin: auto;
+    font-size: 1.9rem;
+  }
+  .card_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    /* max-width: 1250px; */
+    margin: auto;
+    width: 100%;
+    overflow: scroll;
+  }
 
+  .classCard {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 223, 227);
+    border-radius: 8px;
+    color: rgb(46, 50, 56);
+    height: 431px;
+    
+    margin: 2rem;
+    margin-right: 1rem;
+  }
+  .card_media {
+    border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+    width: 24rem;
+  }
 
-.desc{
-    font-size: 1.5rem;
-    background: rgb(224 217 217 / 35%);
-    padding: 0.5rem;
-    border-radius: 5px;
-    width: 6rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 5rem;
-    justify-content: center;
+  .childContainer {
+    width: 100%;
+    margin: 2rem auto;
+    font-size: 2.2rem;
+    text-align: center;
+  }
 }
