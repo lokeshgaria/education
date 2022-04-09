@@ -13,7 +13,7 @@ function SlickBanner() {
             height={140}
             className={styles.bannerSlickImg}
             alt="bannerLogo"
-            placeholder="blur"
+             
           />
         </div>
 

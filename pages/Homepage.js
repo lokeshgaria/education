@@ -17,7 +17,7 @@ function Homepage() {
           <div className={`${styles.leftSide} `}>
             <Image
               src={whiteLogo}
-              placeholder="blur"
+             
               alt="logo"
               className={styles.hover_element}
             />
