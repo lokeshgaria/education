@@ -1,12 +1,18 @@
 import React from "react";
 import * as styles from "../styles/Testimonial.module.css";
+import Prof from "../assets/testimonials/profile.png"
+ 
+import Image from "next/dist/client/image";
 
 function Testimonial() {
   return (
     <div className={styles.testimonials}>
       <div className={styles.testimonial__content}>
-        <img
-          src="https://static.outschool.com/master/public/images/parent-krystal.6bc9abcc12290648b506f29c00f883a5.png"
+        <Image
+          src={Prof}
+          width={150}
+          height={140}
+          className={styles.testimonial__content_img}
           alt="user-profile"
         />
 

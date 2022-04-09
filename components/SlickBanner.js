@@ -1,14 +1,21 @@
 import React from "react";
 import * as styles from "../styles/SlickBanner.module.css";
+import Image from "next/image";
+import slick from "../assets/slick.png";
 
 function SlickBanner() {
   return (
-    <div  className={styles.parentSlick}>
+    <div className={styles.parentSlick}>
       <div className={styles.slickBanner}>
-        <img
-          src="https://static.outschool.com/master/public/images/Books.d6b318117f37c39783271723eb0ee7dc.png"
-          alt="bannerLogo"
-        />
+        <div className={styles.img_div}>
+          <Image
+            src={slick}
+            height={140}
+            className={styles.bannerSlickImg}
+            alt="bannerLogo"
+          />
+        </div>
+
         <div className={styles.slikContent}>
           <h3 className={styles.Slic_heading}>Try One-on-One Learning</h3>
           <p className={styles.slick_para}>

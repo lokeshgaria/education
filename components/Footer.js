@@ -1,5 +1,8 @@
 import React from "react";
 import * as styles from "../styles/Footer.module.css";
+import heart from "../assets/footer/heart.png";
+import Image from "next/dist/client/image";
+import footerLogo from "../assets/footer/love.png"
 
 function Footer() {
   return (
@@ -7,9 +10,9 @@ function Footer() {
       <div className={styles.footer_content}>
         <div className={styles.row}>
           <div className={styles.footer_first}>
-            <div style={{display:"flex"}}>
-              <img src="https://static.outschool.com/master/public/images/heart-icon.635ab99b80395b2844980945d62e2cea.png" style={{width:"20px" , height:"20px"}} />
-              <img src="https://static.outschool.com/master/public/images/love-learning-text.48f9cf99faa1de0996157e2ddba3b9b4.png" />
+            <div style={{display:"flex" , height:"28px"}}>
+              <Image src={heart} width={15} height={5} alt="footer-logo" />
+              <Image src={footerLogo} width={150} alt="footer-logo" />
             </div>
 
             <p>

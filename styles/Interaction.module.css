@@ -96,12 +96,15 @@
     justify-content: flex-start;
 }
 
-.userSection > img{
+.profileImg{
     border-radius: 100%;
     width: 35px;
     border: 1px solid #c43333;
     padding: 0.2rem;
-    margin-right: 1rem;
+    
+}
+.userName{
+  margin-left: 1rem;
 }
 
 .card_footer{

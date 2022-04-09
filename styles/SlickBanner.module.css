@@ -21,9 +21,13 @@
   position: relative;
 }
 
-.slickBanner > img {
+.img_div {
   position: absolute;
-  bottom: 0;
+  bottom: -4px;
+}
+.bannerSlickImg {
+  position: absolute;
+  bottom: 0 !important;
 }
 
 .slikContent {

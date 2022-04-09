@@ -6,7 +6,8 @@ import SlickBanner from "../components/SlickBanner";
 import Feature from "../components/Feature";
 import Testimonial from "../components/Testimonial";
 import Footer from "../components/Footer";
-
+import Image from "next/dist/client/image";
+import whiteLogo from "../assets/logoWhite.png"
 function Homepage() {
   return (
     <>
@@ -14,8 +15,8 @@ function Homepage() {
         {/**NAVBAR */}
         <div className={styles.navbar}>
           <div className={`${styles.leftSide} `}>
-            <img
-              src="https://static.outschool.com/master/public/images/logo-white-full-text.3336d921624722ee694ef09bce94aab3.png"
+            <Image
+              src={whiteLogo}
               alt="logo"
               className={styles.hover_element}
             />

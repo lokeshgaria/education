@@ -1,6 +1,10 @@
 import React from "react";
 import * as styles from "../styles/Feature.module.css";
 import Image from "next/image";
+import Feature1 from "../assets/feature/feature1.png";
+import Feature2 from "../assets/feature/feature2.png";
+import Feature3 from "../assets/feature/feature3.png";
+
 function Feature() {
   return (
     <div className={styles.Feature}>
@@ -10,8 +14,8 @@ function Feature() {
       <div className={styles.featureRow}>
         <div className={styles.Feature_cards}>
           <div className={styles.card_top}>
-            <img
-              src="https://static.outschool.com/master/public/images/explore-any-interest.f3f6e5e34935ea22159658bd77e0bf76.png"
+            <Image
+              src={Feature1}
               alt="card-img"
             />
             <div>
@@ -26,9 +30,9 @@ function Feature() {
         </div>
         <div className={styles.Feature_cards}>
           <div className={styles.card_top}>
-            <img
-              src="https://static.outschool.com/master/public/images/learn-with-peers.a1f3d0894b01282c784f8ca998fd5f93.png"
-              alt="card-img"
+            <Image
+              src={Feature2}
+              alt="card2"
             />
             <div>
               <h4 className={styles.learning_title}>Small & Social</h4>
@@ -40,9 +44,9 @@ function Feature() {
         </div>
         <div className={styles.Feature_cards}>
           <div className={styles.card_top}>
-            <img
-              src="https://static.outschool.com/master/public/images/inspiring-teachers.4458a1c753b13da169c397d396dd866e.png"
-              alt="card-img"
+            <Image
+              src={Feature3}
+              alt="card"
             />
             <div>
               <h4 className={styles.learning_title}>Educators You Can Trust</h4>
