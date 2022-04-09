@@ -15,6 +15,7 @@ function Feature() {
         <div className={styles.Feature_cards}>
           <div className={styles.card_top}>
             <Image
+              placeholder="blurred"
               src={Feature1}
               alt="card-img"
             />
@@ -31,6 +32,7 @@ function Feature() {
         <div className={styles.Feature_cards}>
           <div className={styles.card_top}>
             <Image
+              placeholder="blurred"
               src={Feature2}
               alt="card2"
             />
@@ -45,6 +47,7 @@ function Feature() {
         <div className={styles.Feature_cards}>
           <div className={styles.card_top}>
             <Image
+              placeholder="blurred"
               src={Feature3}
               alt="card"
             />

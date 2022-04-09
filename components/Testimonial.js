@@ -12,6 +12,7 @@ function Testimonial() {
           src={Prof}
           width={150}
           height={140}
+          placeholder="blur"
           className={styles.testimonial__content_img}
           alt="user-profile"
         />

@@ -21,7 +21,7 @@ function Interaction() {
       <div className={styles.card_container}>
         <div className={styles.classCard}>
           <div className={styles.card_media}>
-            <Image src={Pencil} width={500} height={300} alt="card-img" />
+            <Image placeholder="blur" src={Pencil} width={500} height={300} alt="card-img" />
           </div>
 
           <div className={styles.card_Content}>
@@ -43,7 +43,7 @@ function Interaction() {
                   Research and Writing Basics
                 </p>
                 <div className={styles.userSection}>
-                  <Image className={styles.profileImg} src={user} alt="avatar" />
+                  <Image placeholder="blur" className={styles.profileImg} src={user} alt="avatar" />
                   <p className={styles.userName}>Molly McGill, M.A.</p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ function Interaction() {
 
         <div className={styles.classCard}>
           <div className={styles.card_media}>
-            <Image src={Pencil} width={500} height={300} alt="card-img" />
+            <Image placeholder="blur" src={Pencil} width={500} height={300} alt="card-img" />
           </div>
 
           <div className={styles.card_Content}>
@@ -89,7 +89,7 @@ function Interaction() {
                   Research and Writing Basics
                 </p>
                 <div className={styles.userSection}>
-                  <Image className={styles.profileImg} src={user} alt="avatar" />
+                  <Image placeholder="blur" className={styles.profileImg} src={user} alt="avatar" />
                   <p className={styles.userName}>Molly McGill, M.A.</p>
                 </div>
               </div>
@@ -113,7 +113,7 @@ function Interaction() {
 
         <div className={styles.classCard}>
           <div className={styles.card_media}>
-            <Image src={Pencil} width={500} height={300} alt="card-img" />
+            <Image placeholder="blur" src={Pencil} width={500} height={300} alt="card-img" />
           </div>
 
           <div className={styles.card_Content}>
@@ -135,7 +135,7 @@ function Interaction() {
                   Research and Writing Basics
                 </p>
                 <div className={styles.userSection}>
-                  <Image className={styles.profileImg} src={user} alt="avatar" />
+                  <Image placeholder="blur" className={styles.profileImg} src={user} alt="avatar" />
                   <p className={styles.userName}>Molly McGill, M.A.</p>
                 </div>
               </div>
@@ -159,7 +159,7 @@ function Interaction() {
 
         <div className={styles.classCard}>
           <div className={styles.card_media}>
-            <Image src={Pencil} width={500} height={300} alt="card-img" />
+            <Image placeholder="blur" src={Pencil} width={500} height={300} alt="card-img" />
           </div>
 
           <div className={styles.card_Content}>
@@ -181,7 +181,7 @@ function Interaction() {
                   Research and Writing Basics
                 </p>
                 <div className={styles.userSection}>
-                  <Image className={styles.profileImg} src={user} alt="avatar" />
+                  <Image placeholder="blur" className={styles.profileImg} src={user} alt="avatar" />
                   <p className={styles.userName}>Molly McGill, M.A.</p>
                 </div>
               </div>
@@ -205,7 +205,7 @@ function Interaction() {
 
         <div className={styles.classCard}>
           <div className={styles.card_media}>
-            <Image src={Pencil} width={500} height={300} alt="card-img" />
+            <Image placeholder="blur" src={Pencil} width={500} height={300} alt="card-img" />
           </div>
 
           <div className={styles.card_Content}>
@@ -227,7 +227,7 @@ function Interaction() {
                   Research and Writing Basics
                 </p>
                 <div className={styles.userSection}>
-                  <Image className={styles.profileImg} src={user} alt="avatar" />
+                  <Image placeholder="blur" className={styles.profileImg} src={user} alt="avatar" />
                   <p className={styles.userName}>Molly McGill, M.A.</p>
                 </div>
               </div>

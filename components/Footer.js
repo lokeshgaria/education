@@ -11,8 +11,8 @@ function Footer() {
         <div className={styles.row}>
           <div className={styles.footer_first}>
             <div style={{display:"flex" , height:"28px"}}>
-              <Image src={heart} width={15} height={5} alt="footer-logo" />
-              <Image src={footerLogo} width={150} alt="footer-logo" />
+              <Image placeholder="blur" src={heart} width={15} height={5} alt="footer-logo" />
+              <Image placeholder="blur" src={footerLogo} width={150} alt="footer-logo" />
             </div>
 
             <p>
